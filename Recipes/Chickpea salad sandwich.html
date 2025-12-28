@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Chickpea salad sandwich</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="4">★★★★</p>
+            <p itemprop="recipeCategory" class="categories">Salads</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.youtube.com/watch?v=FsywAgJ42Ug&amp;t=572s">
+                        <span itemprop="author">Youtube.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>Quick Pickled Onions:</strong></p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cups apple cider vinegar</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon sugar</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> teaspoons kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> red onion, thinly sliced</p><br/><br/><p class="line" itemprop="recipeIngredient"><strong>Tahini Ranch Dressing:</strong></p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup plus 2 tablespoons fresh lemon juice</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup plus 2 tablespoons tahini</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup extra-virgin olive oil</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons white miso</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons pure maple syrup or agave nectar</p><p class="line" itemprop="recipeIngredient"><strong>1½</strong> teaspoons onion powder</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> teaspoon garlic powder</p><p class="line" itemprop="recipeIngredient">Kosher salt, freshly ground pepper</p><br/><br/><br/><p class="line" itemprop="recipeIngredient"><strong>Chickpeas:</strong></p><p class="line" itemprop="recipeIngredient"><strong>1</strong> lb. dried chickpeas, soaked overnight, drained</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> medium onion, thinly sliced</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> garlic cloves, crushed</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> 3x1&quot; strips lemon zest</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup extra-virgin olive oil</p><p class="line" itemprop="recipeIngredient">Kosher salt, freshly ground pepper</p><p></p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>Quick pickled onions:</strong><br/>Whisk first 3 ingredients and 1 cup water in a small bowl until sugar and salt dissolve. <br/>Place onion in a jar; pour vinegar mixture over. <br/>Let sit at room temperature for 1 hour. <br/>DO AHEAD: Can be made 2 weeks ahead. <br/>Cover and chill. Drain onions before using.</p><p class="line"><strong>Tahini Ranch dressing:</strong><br/>Purée lemon juice, tahini, oil, miso, maple syrup, onion powder, garlic powder, and ½ cup water in a blender until smooth. <br/>Season with salt and pepper.<br/>Do Ahead: Dressing can be made 5 days ahead. Cover and chill.</p><p class="line"><strong>Chickpeas:</strong><br/>Combine chickpeas, onion, garlic, lemon zest, oil, and a couple big pinches of salt in a large pot. <br/>Add 2 quarts water and stir to combine. <br/>Bring to a boil, then reduce heat to medium-low and simmer, stirring occasionally and replacing any water that evaporates, until chickpeas are tender, about 2 hours. <br/>Taste and season generously with salt and pepper. <br/>Let cool.<br/>Do Ahead: Chickpeas can be made 6 days ahead. Transfer to an airtight container and chill.</p><p class="line">Assemble on toasted bread with lettuce and pickled onions.<br/>Add yogurt, sliced capers, lemon juice, salt/pepper</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

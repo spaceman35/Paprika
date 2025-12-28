@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.justonecookbook.com/wp-content/uploads/2019/10/Karaage-9547-II-768x1152.jpg">
+                <img src="Images/99927B5C-6C32-4D5D-9C05-C968DEB2533E/A16196B8-3AB2-440E-AF56-0254F983F1A6.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Karaage (Japanese Fried Chicken)</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Japanese</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">15 mins</span>
+            <b>Cook Time: </b><span itemprop="">15 mins</span>
+            <b>Servings: </b><span itemprop="">Servings: 4</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.justonecookbook.com/karaage/">
+                        <span itemprop="author">justonecookbook.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">garlic</p><p class="line" itemprop="recipeIngredient">sesame oil</p><p class="line" itemprop="recipeIngredient">mirin</p><p class="line" itemprop="recipeIngredient">oyster sauce</p><p class="line" itemprop="recipeIngredient">curry powder</p><p class="line" itemprop="recipeIngredient">egg yolk</p><p class="line" itemprop="recipeIngredient">Japanese mayonnaise</p><p class="line" itemprop="recipeIngredient"><strong>1½</strong> lb boneless, skin-on chicken thighs</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> tsp Diamond Crystal kosher salt</p><p class="line" itemprop="recipeIngredient">freshly ground black pepper</p><br/><p class="line" itemprop="recipeIngredient"><strong>For the Marinade:</strong></p><p class="line" itemprop="recipeIngredient"><strong>½</strong> tsp ginger (grated, with juice)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> clove garlic</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> Tbsp soy sauce</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> Tbsp sake (or substitute with dry sherry, Chinese rice wine, or omit)</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> tsp toasted sesame oil</p><br/><p class="line" itemprop="recipeIngredient">For Deep-Frying</p><p class="line" itemprop="recipeIngredient">neutral oil (about 4 cups, 960 ml)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> Tbsp potato starch or cornstarch (plus more, if needed)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> Tbsp all-purpose flour (plain flour) (plus more, if needed)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Gather all the ingredients</p><p class="line"><strong>To Marinade the Chicken</strong><br/>To prepare 1½ lb boneless, skin-on chicken thighs, cut each chicken thigh into 2-inch (5-cm) pieces. <br/>Season with ½ tsp Diamond Crystal kosher salt and freshly ground black pepper.</p><p class="line">Now, grate the ginger (I use a ceramic grater ). <br/>Take ½ tsp ginger (grated, with juice) and add them to a large bowl. Next, mince or press 1 clove garlic (I use a garlic press) and add it to the bowl.</p><p class="line">Add ½ Tbsp soy sauce, ½ Tbsp sake, and ½ tsp toasted sesame oil to the bowl with the ginger and garlic. Whisk it all together.</p><p class="line">Add the chicken to the bowl with the marinade and mix it with your hands. Cover and keep in the refrigerator to marinate for 30 minutes.</p><p class="line"><strong>To Prepare the Deep Frying Oil</strong><br/>While the chicken is marinating, prepare the oil for deep-frying. <br/>Pour about 4 cups (960 ml) neutral oil into a heavy-bottomed pot (I used a Dutch oven) and heat it to 325ºF (160ºC) on medium heat.</p><p class="line"><strong>To Dredge the Chicken</strong><br/>While the oil is heating up, dredge the chicken. Prepare 2 Tbsp all-purpose flour (plain flour) and 2 Tbsp potato starch or cornstarch in separate piles.</p><p class="line">Lightly dredge a marinated chicken piece in the flour and dust off the excess flour. Then, dredge in the potato starch and remove the excess starch.</p><p class="line">Continue with the remaining chicken pieces.</p><p class="line"><strong>To Deep-Fry</strong><br/>Check that the oil temperature has reached 325ºF (160ºC). <br/>Tip: If you don‘t have an instant read thermometer, insert a wooden chopstick into the oil; you‘ll know it‘s hot enough if small bubbles start to appear around the tip.</p><p class="line">When the oil is hot enough, gently submerge 3 to 5 chicken pieces in the oil at a time; do not overcrowd the pot. <br/>Tip: If you put too many pieces in at once, the oil temperature will drop quickly, and the chicken will end up absorbing too much oil.</p><p class="line">First Deep-Frying: Deep-fry for 90 seconds, or until the outside of the chicken is a light golden color. <br/>If the chicken browns too quickly, then the oil temperature is too high. <br/>Either put a few more pieces of chicken in the oil or lower the heat. <br/>Controlling the oil temperature at all times is very important for deep-frying. <br/>Transfer the chicken pieces to a wire rack to drain the excess oil.</p><p class="line">The residual heat will continue to cook the chicken as it rests on the wire rack. <br/>Continue deep-frying the remaining chicken pieces. <br/>Between batches, pick up and discard the crumbs in the oil with a fine-mesh sieve. <br/>This keeps the oil clean and prevents it from becoming darker.</p><p class="line">Second Deep-Frying: Now, heat the oil to 350ºF (180ºC). <br/>Place 3 to 5 pieces of the resting chicken back into the oil and deep-fry for 45 seconds, or until the skin is golden brown and crispy. <br/>Transfer them to a wire rack to drain the excess oil. <br/>Continue with the remaining chicken pieces.</p><br/><p class="line"><strong><strong>To Serve:</strong></strong><br/>Serve the chicken hot. <br/>We often serve Karaage with lemon wedges and dip it in Japanese Kewpie mayonnaise (you can make it homemade). <br/>Sprinkle shichimi togarashi (Japanese seven spice) on top for a bit of spice, if desired.</p><p class="line"><strong><strong>To Store:</strong></strong><br/>Let cool completely, and keep in an airtight container. <br/>You can store it in the refrigerator for up to 3 days and in the freezer for up to a month.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
